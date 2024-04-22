@@ -9,6 +9,6 @@ type cards struct {
 
 type deck interface {
 	new()
-	sort() []card
-	shuffle() []card
+	sort()
+	shuffle()
 }

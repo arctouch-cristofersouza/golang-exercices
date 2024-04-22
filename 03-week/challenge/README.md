@@ -7,6 +7,8 @@ Create a struct with will contain props from a card (number and suit) and an imp
     (Ace - Spades ... King - Spades, Ace - Diamonds ... King - Diamonds, Ace - Clubs and so on..)
 - Shuffle: shuffle deck
 
+All should change struct and NOT return a new struct
+
 hit: Rand.Shuffle
 
 ```
